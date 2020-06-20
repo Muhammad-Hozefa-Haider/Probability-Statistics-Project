@@ -55,5 +55,5 @@ def twopersongraph():
     plt.xlabel('time/steps')
     plt.show()
 
-
 twopersongraph()
+#twopersonwalk(draw=True)

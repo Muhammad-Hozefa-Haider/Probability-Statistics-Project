@@ -20,7 +20,7 @@ def walkendgraph(startingposition=0,rightweight=1,leftweight = 1,nomovement = 1)
         x=startingposition
 
     plt.bar(list(res.keys()), list(res.values()))
-    plt.suptitle('times how many times walk ended at a certain distance\nwith starting position 5', fontsize=10)
+    plt.suptitle('times how many times walk ended at a certain distance\nwith starting position 0', fontsize=10)
     plt.xlabel('distances')
     plt.ylabel('no of times a walk ended')
 
@@ -48,4 +48,4 @@ def path():
     plt.grid(True)
     plt.show()
 
-path()
+walkendgraph()

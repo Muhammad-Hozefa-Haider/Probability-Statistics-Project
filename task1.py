@@ -1,6 +1,6 @@
 import random
 import matplotlib.pyplot as plt
-import numpy as np
+
 
 
 def walkendgraph(startingposition=0,rightweight=1,leftweight = 1,nomovement = 1):
